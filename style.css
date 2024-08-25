@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: radial-gradient(#c449dd, #2d065c);
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vh;
+    width: 18vh;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    font-size: 9vmin;
+    color: #b0413b;
+    font-weight: bolder;
+    background-color: #f4ede6;
+}
+.mode-select{
+    height: 9vh;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    font-size: 3vmin;
+    color: #6f0803a8;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f4ede6;
+}
+.reset-btn{
+    padding: 1rem;
+    font-size: 3vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    color: #000000;
+    background-color:#C9B1BD;
+}
+.new-btn{
+    padding: 1rem;
+    font-size: 3vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    color: #000000;
+    background-color:#C9B1BD;
+    margin: 0px 0px 50px 0px;
+}
+
+.o-color{
+    color: #DD0426;
+}
+
+.x-color{
+    color: #273043;
+}
+
+.msg{
+    font-size: 8vmin;
+    color: #dfe8cd;
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
